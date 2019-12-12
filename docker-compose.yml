@@ -1,0 +1,12 @@
+version: '3'
+services:
+  muscle_qoresdk:
+    container_name: muscle_qoresdk
+    labels:
+      name: jupyter notebook 
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/notebooks
+    build: . 
+
