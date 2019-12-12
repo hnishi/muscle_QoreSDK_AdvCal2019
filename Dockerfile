@@ -17,5 +17,5 @@ ADD qore_sdk-0.1.0-cp37-cp37m-linux_x86_64.whl .
 RUN pip install qore_sdk-0.1.0-cp37-cp37m-linux_x86_64.whl
 
 # Run shell command for notebook on start 
-CMD jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root --NotebookApp.token=''
+CMD jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root
 
