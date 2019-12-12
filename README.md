@@ -9,8 +9,8 @@ Docker
 ## How to build and use
 
 - アカウントが登録されると、QoreSDKを使うためのバイナリパッケージをダウンロードできるようになる（emailでリンクが送付される）
-- qore\_sdk-0.1.0-cp36-cp36m-linux\_x86_64.whl バイナリパッケージをダウンロードする
-- サイドバーのファイルメニューへバイナリをドラッグアンドドロップして、colab上に置く
+- `qore_sdk-0.1.0-cp36-cp36m-linux_x86_64.whl` バイナリパッケージをダウンロードする
+- サイドバーのファイルメニューへバイナリをドラッグアンドドロップして、colab上に置く
 
 ```
 $ docker-compose build  # build a docker image
